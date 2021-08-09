@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {AdminComponent} from './components/admin/admin.component';
 import {HttpClientModule} from '@angular/common/http';
-import {BikeService} from './services/bike.service';
+import {BikeService} from './services/BikeService/bike.service';
 
 @NgModule({
   declarations: [
